@@ -5,8 +5,10 @@ const kilometri = Number(prompt("Quanti Kilometri vuoi fare?"));
 const eta = Number(prompt("Quanti anni hai?"));
 
 
-if (kilometri == NaN) {
-    alert(`si prega si inserire nuovamnete i dati corretti`)
+if (isNaN(kilometri)) {
+    alert(`si prega si inserire nuovamnete i dati corretti`);
+} else if (isNaN(eta)) {
+    alert(`si prega si inserire nuovamnete i dati corretti`);
 }
 
 //Prezzo BIglietto
